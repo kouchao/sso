@@ -1,0 +1,32 @@
+.v-drag{
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    background-color: #e8e8e8;
+    position: relative;
+}
+.v-bg{
+    width:42px;
+    height: 100%;
+    position: absolute;
+    background-color: #75CDF9;
+}
+.v-text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    user-select: none;
+}
+.v-btn{
+    width:42px;
+    height: 40px;
+    position: absolute;
+    border:1px solid #ccc;
+    cursor: move;
+    font-family: "宋体";
+    text-align: center;
+    background-color: #fff;
+    user-select: none;
+    color:#666;
+}

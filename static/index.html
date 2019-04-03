@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>单点登录</title>
+
+
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/index.css">
+
+
+</head>
+<body>
+
+<div class="body">
+   <div class="login">
+        <div class="login-type">
+            <img data-type="qr" class="qr animated" src="img/qrcode.svg" title="切换到扫码登录" width="100%" height="100%">
+            <img data-type="pw" class="pw animated" src="img/password.svg" title="切换到密码登录" width="100%" height="100%">
+        </div>
+        <div class="login-title">
+            密码登录
+        </div>
+        <div class="login-body">
+
+            <div class="login-body-qr animated flipInX">
+                <div class="tips">打开 小程序 扫一扫登录</div>
+
+                <div id="qrcode"></div>
+
+                <div class="register">
+                    <a style="margin-right: 15px;">忘记密码</a><a href="html/register.html">免费注册</a>
+                </div>
+            </div>
+            <div class="login-body-pw animated flipInX">
+                <div class="tips">测试手机号: 13206366611, 密码: 123456</div>
+                <div class="form-item">
+                    <div class="lable">手机号</div>
+                    <input type="text" class="mobile">
+                </div>
+                <div class="form-item">
+                    <div class="lable">密码</div>
+                    <input type="password" class="password">
+                </div>
+                <div class="btn login-btn">登录</div>
+                <div class="register">
+                    <a style="margin-right: 15px;">忘记密码</a><a href="html/register.html">免费注册</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="height: 82px">
+        <p>百分之八十的问题可以运用百分之二十的知识来解决</p>
+        <p>而剩下的百分之二十的问题需要运用百分之八十的知识来解决</p>
+        <p>准备好那百分之八十的知识</p>
+        <p>才会在遇到有挑战的问题时更加游刃有余</p>
+        <p>机会永远留给准备好的人</p>
+    </div>
+
+
+
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/socket.io.slim.js"></script>
+<script src="js/qrcode.min.js"></script>
+
+<script src="js/public.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>
